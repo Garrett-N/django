@@ -39,6 +39,7 @@ from django.conf import settings
 from django.conf.urls.static import static
 
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+bigchange = 1
 
 #Add Django site authentication urls (for login, logout, password management)
 urlpatterns += [
